@@ -31,7 +31,6 @@ int [,] CreateMatrix(int m, int n)
     {
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
-
             matrix[i, j] = rnd.Next(0, 100);
         }
     }
